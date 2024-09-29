@@ -9,6 +9,14 @@ Como executar
 ______
 2. Ou instale e execute a extensão Live Server.
 ______
+
+## API Externas
+ 1. Utilizei a getLocation para pegar as coordenadas do endereço colocado
+     1. API key da getLocation: 0e51a6e45511417ca30a54aac169e293
+       
+ 2. Utilizei a OpenStreetMap para mostrar a localizacao das coordenadas no mapa.
+    1. Não é necessário uso de nenhuma API key para a mesma, sendo ela utilizada diretamente no front-end.
+____
 ### Para rodar o Dockerfile
 
 1. Instale o Docker em sua máquina
