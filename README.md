@@ -8,7 +8,7 @@ Como executar
 1. Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
 ______
 2. Ou instale e execute a extensão Live Server.
-
+______
 ### Para rodar o Dockerfile
 
 1. Instale o Docker em sua máquina
