@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />    
+    <title>Document</title> 
+</head>
+<body>
+    <div>
+        <form method="post" id="form">            
+            <div class="dados-cliente">
+            <fieldset>
+                <legend>Dados do cliente</legend>
+                <ul>
+                    <li>   
+                        <label>Nome</label>
+                        <input type="text" id="newNome"  name="nome" placeholder="Nome e sobrenome" 
+                        required autofocus >
+                    </li>
+                    <li>
+                        <label>Gostos</label>
+                        <input type="text" id="newGostos" name="gostos" placeholder="Gostos">
+                    </li> 
+                    <li>
+                        <label>Endereço</label>
+                        <input type="text" id="newEndereco" name="endereco" 
+                        placeholder="Digite o endereço">
+                    </li>
+                </ul>
+            </fieldset>
+            </div>
+            <div class="button">
+                <input type="button" value="Enviar" onclick="submitForm()">
+                
+            </div>
+        </form>
+        <form id="address-form">
+            <input type="text" id="address" placeholder="Enter an address" />
+            <button type="submit">Pegar Localização</button>
+          </form>
+          
+          <div id="location-result"></div>
+
+          <div id="map" style="height: 400px; width: 100%;"></div>
+        <hr>
+        <h4>Tabela in JS</h4>
+        <div id="table">
+           
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script-for-form.js"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</body>
+</html>
